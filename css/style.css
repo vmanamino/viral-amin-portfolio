@@ -1,5 +1,6 @@
 body {
     font-family: Vollkorn;
+    background-color: black;
 }
 
 .grid:after {
@@ -29,9 +30,20 @@ body {
 
 .col-2-3 {
     width: 60%;
-    padding-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 3%;
     background-color: lightblue;
     margin-left: 1%;
+}
+
+.projects img {
+  width: 300px;
+}
+
+.projects li {
+    float: left;
+    display: inline-block;
+    margin-left: 2%;
 }
 
 [class*='col-'] {
@@ -50,3 +62,30 @@ header {
     font-size: larger;
 }
 
+@media only screen and (max-width: 1370px) {
+  h1 {
+    font-size: 1em;
+  }
+  .text {
+    font-size: 1em;
+  }
+} 
+
+@media only screen and (max-width: 700px) {
+  .projects img {
+    width: 200px;
+  }
+  .text {
+    font-size: .8em;
+    padding: 10%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .profile > h1 {
+    display: none;
+  }
+  .text {
+    padding-top: 0px;
+  }
+}
