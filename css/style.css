@@ -62,6 +62,18 @@ header {
     font-size: larger;
 }
 
+h2 {
+  margin-left: 5%;
+}
+
+.jsjquery {
+  display: -webkit-inline-box;
+}
+
+.jsjquery > .projects {
+  margin-top: 10%;
+}
+
 @media only screen and (max-width: 1370px) {
   h1 {
     font-size: 1em;
@@ -70,6 +82,8 @@ header {
     font-size: 1em;
   }
 } 
+
+
 
 @media only screen and (max-width: 700px) {
   .projects img {
